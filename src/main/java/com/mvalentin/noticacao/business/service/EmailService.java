@@ -18,7 +18,6 @@ import java.io.UnsupportedEncodingException;
 
 @Service
 @RequiredArgsConstructor
-
 public class EmailService {
 
     private final JavaMailSender javaMailSender;
